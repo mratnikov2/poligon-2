@@ -18,8 +18,8 @@
         <img src=""
              alt=""
              class="w-64 h-64 bg-white rounded-full mx-auto mt-5" />
-        <button class="w-[40px] h-[30px] bg-orange-400 mt-10 mx-auto border-2 border-black rounded text-center flex
-            items-center justify-center"
+        <button class="w-[140px] h-[30px] bg-gradient-to-r from-orange-300 via-orange-400 to-orange-500 mt-10 mx-auto
+        border-2 border-black rounded-lg text-center flex items-center justify-center"
         >
                 Жми
         </button>
@@ -37,8 +37,8 @@
         <img src=""
              alt=""
              class="w-64 h-64 bg-white rounded-full mx-auto mt-5" />
-        <button class="w-[40px] h-[30px] bg-orange-400 mt-10 mx-auto border-2 border-black rounded text-center flex
-            items-center justify-center"
+        <button class="w-[140px] h-[30px] bg-gradient-to-r from-orange-300 via-orange-400 to-orange-500 mt-10 mx-auto
+            border-2 border-black rounded-lg text-center flex items-center justify-center"
         >
             Жми
         </button>
@@ -56,8 +56,8 @@
         <img src=""
              alt=""
              class="w-64 h-64 bg-white rounded-full mx-auto mt-5" />
-        <button class="w-[40px] h-[30px] bg-orange-400 mt-10 mx-auto border-2 border-black rounded text-center flex
-            items-center justify-center"
+        <button class="w-[140px] h-[30px] bg-gradient-to-r from-orange-300 via-orange-400 to-orange-500 mt-10 mx-auto
+            border-2 border-black rounded-lg text-center flex items-center justify-center"
         >
             Жми
         </button>
