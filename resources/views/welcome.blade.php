@@ -12,6 +12,7 @@
 {{--start page--}}
 
 @include('partials.start')
+@include('partials.second')
 
 </body>
 </html>
