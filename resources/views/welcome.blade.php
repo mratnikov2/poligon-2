@@ -12,7 +12,14 @@
 {{--start page--}}
 
 @include('partials.start')
+
+{{--second page--}}
+
 @include('partials.second')
+
+{{--third page--}}
+
+@include('partials.third')
 
 </body>
 </html>
