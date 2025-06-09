@@ -48,5 +48,67 @@
         </p>
     </div>
 </div>
+<div class="mt-5 w-full max-w-[2560px] bg-white h-[1000px]">
+    <div class="w-full max-w-[1280px] mx-auto border-b border-b-black">
+        <h1 class="text-3xl text-left mb-2">
+            Baseball by the Numbers
+        </h1>
+    </div>
+    <div class="w-full max-w-[1280px] mx-auto mt-5 flex flex-row">
+        <div class="w-1/3">
+            <p class="text-red-700 text-[180px] font-bold leading-tight">
+                132
+            </p>
+        </div>
+        <div class="w-2/3">
+            <p class="text-left text-6xl leading-tight mt-12 font-bold">
+                All-Star apperenceas by CAA clients
+            </p>
+        </div>
+    </div>
+    <div class="w-full max-w-[1280px] mx-auto mt-20 border-t border-t-black flex flex-row">
+        <div class="w-1/3">
+            <div class="flex items-center h-[200px]">
+                <p class="text-left text-[30px] text-black leading-tight font-bold">
+                    Our clients earn the game's <br>
+                    top honors.
+                </p>
+            </div>
+        </div>
+        <!-- правая колонка -->
+        <div class="w-2/3 flex flex-col justify-between">
+            <div class="flex items-center h-[200px] border-b border-b-black">
+                <p class="text-left text-black text-[30px] leading-tight font-bold ">
+                    <span class="text-red-500">6</span> MVP Awards
+                </p>
+            </div>
+            <div class="flex items-center h-[200px] border-b border-b-black">
+                <p class="text-left text-black text-[30px] leading-tight font-bold">
+                    <span class="text-red-500">6</span> Cy Young Awards
+                </p>
+            </div>
+            <div class="flex items-center h-[200px] border-b border-b-black">
+                <p class="text-left text-black text-[30px] leading-tight font-bold">
+                    <span class="text-red-500">8</span> Rookie of the Year Awards
+                </p>
+            </div>
+            <div class="flex items-center h-[200px] border-b border-b-black">
+                <p class="text-left text-black text-[30px] leading-tight font-bold">
+                    <span class="text-red-500">33</span> Silver Sluggers
+                </p>
+            </div>
+            <div class="flex items-center h-[200px] border-b border-b-black">
+                <p class="text-left text-black text-[30px] leading-tight font-bold">
+                    <span class="text-red-500">15</span> First-Team All MLB
+                </p>
+            </div>
+            <div class="flex items-center h-[200px] border-b border-b-black">
+                <p class="text-left text-black text-[30px] leading-tight font-bold">
+                    <span class="text-red-500">32</span> Gold Gloves
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
