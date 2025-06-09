@@ -17,3 +17,7 @@ use Inertia\Inertia;
 Route::get('/', function () {
         return view('welcome');
 });
+
+Route::get('/talant', function () {
+    return view('partials.elements.talant');
+})->name('talant');
