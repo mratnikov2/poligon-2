@@ -162,7 +162,55 @@
         </div>
     </div>
 </div>
-
+<div class="w-full max-w-[2560px] h-[1000px] bg-white mb-10">
+    <div class="flex flex-col">
+        <!-- Заголовок -->
+        <div class="w-full max-w-[1280px] mx-auto border-b border-b-gray-700 py-10">
+            <p class="text-gray-700 text-left text-xl">
+                Our Player Development Expertise
+            </p>
+        </div>
+        <!-- Блок с картинкой и текстом -->
+        <div class="flex w-full max-w-[1280px] mx-auto flex-row">
+            <div class="w-1/3">
+                <img
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                        alt="Image"
+                        class="w-full h-auto p-4">
+            </div>
+            <div class="w-2/3 p-4 text-gray-700 space-y-4 mb-10">
+                <h2 class="text-left text-7xl font-bold">
+                    Development by design.
+                </h2>
+                <p class="text-xl">
+                    CAA represents a large number of the game's top prospects and tomorrow's MLB stars.<br>
+                    CAA's in-house development staff is second-to-none in their ability to help produce <br>
+                    CAA represents a large number of the game's top prospects and tomorrow's MLB stars. <br>
+                    CAA's in-house development staff is second-to-none in their ability to help produce  <br>
+                    big-league talent while using the most innovative and advanced training and nutrition  <br>
+                    methods science has to offer.
+                </p>
+            </div>
+        </div>
+        <div class="w-full max-w-[1280px] mx-auto border-b border-gray-700 py-10">
+            <p class="text-gray-700 text-left text-xl">
+                Development by the Numbers
+            </p>
+        </div>
+        <div class="flex w-full max-w-[1280px] mx-auto flex-row items-center">
+            <div class="w-1/3">
+                <p class="text-red-700 text-[150px] text-center font-bold">
+                    67
+                </p>
+            </div>
+            <div class="w-2/3 p-4 text-gray-700 mb-10 mt-10">
+                <h2 class="text-left text-5xl font-bold">
+                    MLB Futures Game Participiants since formations
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
