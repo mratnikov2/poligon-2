@@ -211,6 +211,56 @@
         </div>
     </div>
 </div>
+<div class="w-full max-w-[2560px] h-[1000px] bg-gray-600 mb-10">
+    <div class="flex flex-col">
+        <!-- Заголовок -->
+        <div class="w-full max-w-[1280px] mx-auto border-b border-b-white py-10">
+            <p class="text-gray-300 text-left text-xl">
+                MLB Contract Expertise
+            </p>
+        </div>
+        <!-- Блок с картинкой и текстом -->
+        <div class="flex w-full max-w-[1280px] mx-auto flex-row">
+            <div class="w-1/3">
+                <img
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                        alt="Image"
+                        class="w-full h-auto p-4">
+            </div>
+            <div class="w-2/3 p-4 text-gray-100 space-y-4 mb-10">
+                <h2 class="text-left text-7xl font-bold">
+                    Maximizing value while meeting client goals.
+                </h2>
+                <p class="text-xl">
+                    With strong, trusted relationships across the league, CAA agents <br>
+                    have negotiated some of the game's largest, record-breaking deals. <br>
+                    Using industry-leading research and analysis capabilities, proprietary <br>
+                    databases, and decades of combined experience, CAA is able to maximize <br>
+                    MLB contracts at the highest levels while accomplishing <br>
+                    the individual short- and long-term goals of each client.<br>
+                </p>
+
+            </div>
+        </div>
+        <div class="w-full max-w-[1280px] mx-auto border-b border-b-white py-10">
+            <p class="text-gray-300 text-left text-xl">
+                Contract Expertise by the Numbers
+            </p>
+        </div>
+        <div class="flex w-full max-w-[1280px] mx-auto flex-row items-center">
+            <div class="w-1/3">
+                <p class="text-red-700 text-[150px] text-center font-bold">
+                    21
+                </p>
+            </div>
+            <div class="w-2/3 p-4 text-gray-100 mb-10 mt-10">
+                <h2 class="text-left text-5xl font-bold">
+                    contracts of 50$mln+ since the begining of 2011 seasons
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
