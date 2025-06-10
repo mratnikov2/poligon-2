@@ -20,7 +20,7 @@
     <div class="w-full max-w-[1280px] mx-auto mt-5 flex flex-row">
         <div class="w-1/3">
             <p class="text-red-700 text-5xl font-bold leading-tight">
-                America’s <br> greatest  <br> pastime,<br> powered by <br> CAA.
+                America’s <br> greatest <br> pastime,<br> powered by <br> CAA.
             </p>
         </div>
         <div class="w-2/3">
@@ -48,7 +48,7 @@
         </p>
     </div>
 </div>
-<div class="mt-5 w-full max-w-[2560px] bg-white h-[1000px]">
+<div class="mt-5 w-full max-w-[2560px] bg-white h-[1800px]">
     <div class="w-full max-w-[1280px] mx-auto border-b border-b-black">
         <h1 class="text-3xl text-left mb-2">
             Baseball by the Numbers
@@ -110,5 +110,59 @@
         </div>
     </div>
 </div>
+<div class="w-full max-w-[2560px] h-[1000px] bg-gray-600 mb-10">
+    <div class="flex flex-col">
+        <!-- Заголовок -->
+        <div class="w-full max-w-[1280px] mx-auto border-b border-b-white py-10">
+            <p class="text-gray-300 text-left text-xl">
+                Our Draft Expertise
+            </p>
+        </div>
+        <!-- Блок с картинкой и текстом -->
+        <div class="flex w-full max-w-[1280px] mx-auto flex-row">
+            <div class="w-1/3">
+                <img
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                        alt="Image"
+                        class="w-full h-auto p-4">
+            </div>
+            <div class="w-2/3 p-4 text-gray-100 space-y-4 mb-10">
+                <h2 class="text-left text-7xl font-bold">
+                    Elite advisement for elite talent.
+                </h2>
+                <p class="text-xl">
+                    Major League Baseball's Rule 4 Amateur Draft is the main entry point into <br>
+                    the game today. CAA's history of superior service and education with <br>
+                    families has redefined the role of the draft advisor, and the results speak for <br>
+                    themselves.
+                </p>
+                <p class="text-xl">
+                    The MLB Draft is an art, not a science, and in the draft pool system, CAA's <br>
+                    average first-round advisee has signed for more dollars above slot than <br>
+                    players represented by any other firm.
+                </p>
+            </div>
+        </div>
+        <div class="w-full max-w-[1280px] mx-auto border-b border-b-white py-10">
+            <p class="text-gray-300 text-left text-xl">
+                Draft Expertise by the Numbers
+            </p>
+        </div>
+        <div class="flex w-full max-w-[1280px] mx-auto flex-row items-center">
+            <div class="w-1/3">
+                <p class="text-red-700 text-[150px] text-center font-bold">
+                    72
+                </p>
+            </div>
+            <div class="w-2/3 p-4 text-gray-100 mb-10 mt-10">
+                <h2 class="text-left text-5xl font-bold">
+                    first-round selection since formation
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 </body>
 </html>
