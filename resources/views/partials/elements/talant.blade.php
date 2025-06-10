@@ -261,6 +261,59 @@
         </div>
     </div>
 </div>
+<div class="mt-5 w-full max-w-[2560px] bg-white h-[1800px]">
+    <div class="w-full max-w-[1280px] mx-auto border-b border-b-black">
+        <h1 class="text-3xl text-left mb-2">
+            Brand Building
+        </h1>
+    </div>
+    <div class="w-full max-w-[1280px] mx-auto mt-5 flex flex-row">
+        <div class="w-1/3">
+            <p class="text-red-700 text-[50px] font-bold leading-tight mt-10">
+                A 360-degree approach to our clients' ambitions.
+            </p>
+        </div>
+        <div class="w-2/3">
+            <p class="text-left text-4xl leading-tight mt-12 font-bold">
+                Marketing & Endorsements
+            </p>
+            <p class="text-left text-xl leading-snug mt-12 ">
+                CAA's in-house branding team helps clients build well-rounded off-field strategies <br>
+                by partnering with some of the largest and most influential companies activating <br>
+                in sports today. From trading card, memorabilia and equipment deals to larger national <br>
+                advertisements and commercials, CAA clients are at the forefront of capitalizing off their <br>
+                image and likeness.
+            </p>
+            <p class="text-left text-4xl leading-tight mt-12 font-bold">
+                Media
+            </p>
+            <p class="text-left text-xl leading-snug mt-12 ">
+                In today's landscape, media is ever-present, powerful and a major influencer. <br>
+                CAA Baseball has the in-house expertise to guide clients through both traditional <br>
+                and social media, and has been a trailblazer in the usage of social media and graphic <br>
+                design to help players share their own narratives in creative and thought-provoking ways.
+            </p>
+            <p class="text-left text-4xl leading-tight mt-12 font-bold">
+                Philanthropy
+            </p>
+            <p class="text-left text-xl leading-snug mt-12 ">
+                With CAA's help and guidance, baseball clients have collectively raised more than $6.8 million <br>
+                for their respective charities in the past decade alone. And with over 50 Roberto Clemente <br>
+                Award nominations, baseball clients have been honored for their work not only on the field, <br>
+                but off it. The CAA Baseball team works closely with CAA Foundation to expand clients' philanthropic <br>
+                efforts.
+            </p>
+            <p class="text-left text-4xl leading-tight mt-12 font-bold">
+                Major League Concierge
+            </p>
+            <p class="text-left text-xl leading-snug mt-12 ">
+                Whether it's booking a honeymoon, having a car shipped or providing insider access to a CAA-connected
+                show or event, CAA Baseball's in-house concierge service is on call to handle off-the-field needs — so
+                that clients are always able to focus on the field.
+            </p>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
