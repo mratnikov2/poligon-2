@@ -6,6 +6,14 @@ import { resolve } from 'node:path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+    server: {
+        host: true, // или '0.0.0.0', чтобы слушать все интерфейсы
+        port: 5173,
+        cors: true,
+        hmr: {
+            host: 'poligon-2', // имя из hosts
+        },
+    },
     plugins: [
         laravel({
             input: ['resources/js/app.ts'],

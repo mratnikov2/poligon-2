@@ -7,6 +7,14 @@ import { createApp, h } from 'vue';
 import { ZiggyVue } from 'ziggy-js';
 import { initializeTheme } from './composables/useAppearance';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+    duration: 1000,
+    once: true,
+});
+
 // Extend ImportMeta interface for Vite...
 declare module 'vite/client' {
     interface ImportMetaEnv {

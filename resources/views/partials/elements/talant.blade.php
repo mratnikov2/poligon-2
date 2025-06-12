@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-@vite('resources/css/app.css')
+@vite(['resources/css/app.css', 'resources/js/app.ts'])
 <head>
     <meta charset="UTF-8" />
     <title>Talant</title>
@@ -316,122 +316,182 @@
     </div>
 </div>
 <div class="w-full max-w-[2560px] bg-white">
-    <div class="w-full max-w-[1280px] mx-auto">
+    <div class="w-full max-w-[1280px] mx-auto" data-aos="fade-right">
         <h2 class="text-left font-bold text-red-700 text-5xl mb-10">
             Our Team:
         </h2>
     </div>
     <div class="w-full max-w-[1280px] mx-auto">
-        <h2 class="text-left font-bold text-gray-700 text-4xl mb-10">
+        <h2 class="text-left font-bold text-gray-700 text-4xl mb-10" data-aos="fade-up">
             California
         </h2>
     </div>
     <div class="w-full max-w-[1000px] mx-auto grid grid-cols-2 space-y-8">
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Nez Balelo
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Joe Urbon
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+       <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Ryan Hamill
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Marissa Dishaw
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Mark O’Brien
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Mike Nickeas
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Ollie Linton
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Giovanni Rodriguez
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Jack Freedman
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Andrew Devian
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Stefano Priante
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             L Grant Davis
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Julia White
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Tessa Becerra
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Chris Betts
         </p>
     </div>
-    <div class="w-full max-w-[1280px] mx-auto mt-20">
+    <div class="w-full max-w-[1280px] mx-auto mt-20" data-aos="fade-up">
         <h2 class="text-left font-bold text-gray-700 text-4xl mb-10">
             Nashville
         </h2>
     </div>
     <div class="w-full max-w-[1000px] mx-auto grid grid-cols-2 space-y-8">
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Andrew Nacario
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Matt Ricatto
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Tom Hagan
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Lillian Giunta
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Ruben Noriega
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Sydney Chance
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Adriel Reyes
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Nolan Fontana
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Chris Amezquita
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Ethan Roth
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Tyler Hadzinsky
         </p>
     </div>
-    <div class="w-full max-w-[1280px] mx-auto mt-20">
+    <div class="w-full max-w-[1280px] mx-auto mt-20" data-aos="fade-up">
         <h2 class="text-left font-bold text-gray-700 text-4xl mb-10">
             New York
         </h2>
     </div>
     <div class="w-full max-w-[1000px] mx-auto grid grid-cols-2 space-y-8">
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Jennifer Brasile
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Ed Price
         </p>
         <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
             Tito Ovalle
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Amber Sabathia
         </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
+            pr-16"
+        >
             Juan Diego Casallas
         </p>
     </div>
@@ -441,7 +501,7 @@
         </h2>
     </div>
     <div class="w-full max-w-[1000px] mx-auto grid grid-cols-2 mb-10">
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
+        <p  class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
             Sean Twitty
         </p>
         <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
