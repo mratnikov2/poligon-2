@@ -14,6 +14,7 @@ import { createApp } from 'vue'
 import OurTeam from './pages/talant/Our_Team.vue'
 import PartOfNashville from './pages/talant/Part-of-Nashville.vue'
 import NewYork from './pages/talant/New-York.vue'
+import ThreeSixtyDegree from './pages/talant/ThreeSixtyDegree.vue'
 
 // Приложение для our-team
 const ourTeamApp = createApp({})
@@ -29,6 +30,13 @@ partOfNashvilleApp.mount('#vue-team2')
 const NewYorkApp = createApp({})
 NewYorkApp.component('new-york', NewYork)  //
 NewYorkApp.mount('#vue-team3')
+
+// Приложение для 360degree
+
+const degreeApp = createApp({})
+degreeApp.component('three-sixty-degree', ThreeSixtyDegree)
+degreeApp.mount('#vue-team4')
+
 
 
 AOS.init({
