@@ -326,82 +326,8 @@
             California
         </h2>
     </div>
-    <div class="w-full max-w-[1000px] mx-auto grid grid-cols-2 space-y-8">
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Nez Balelo
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Joe Urbon
-        </p>
-       <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Ryan Hamill
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Marissa Dishaw
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Mark O’Brien
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Mike Nickeas
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Ollie Linton
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Giovanni Rodriguez
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Jack Freedman
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Andrew Devian
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Stefano Priante
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            L Grant Davis
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Julia White
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Tessa Becerra
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Chris Betts
-        </p>
+    <div id="vue-team">
+        <our-team></our-team>
     </div>
     <div class="w-full max-w-[1280px] mx-auto mt-20" data-aos="fade-up">
         <h2 class="text-left font-bold text-gray-700 text-4xl mb-10">

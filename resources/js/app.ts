@@ -10,6 +10,14 @@ import { initializeTheme } from './composables/useAppearance';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import { createApp } from 'vue'
+import OurTeam from './pages/talant/Our_Team.vue'
+
+const app = createApp({})
+app.component('our-team', OurTeam)
+app.mount('#vue-team')
+
+
 AOS.init({
     duration: 1000,
     once: true,
