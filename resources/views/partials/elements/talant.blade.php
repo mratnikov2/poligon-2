@@ -342,30 +342,8 @@
             New York
         </h2>
     </div>
-    <div class="w-full max-w-[1000px] mx-auto grid grid-cols-2 space-y-8">
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Jennifer Brasile
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Ed Price
-        </p>
-        <p class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700 pr-16 ">
-            Tito Ovalle
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Amber Sabathia
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Juan Diego Casallas
-        </p>
+    <div id="vue-team3">
+        <new-york></new-york>
     </div>
     <div class="w-full max-w-[1280px] mx-auto mt-20">
         <h2 class="text-left font-bold text-gray-700 text-4xl mb-10">

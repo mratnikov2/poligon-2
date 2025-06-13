@@ -13,6 +13,7 @@ import 'aos/dist/aos.css';
 import { createApp } from 'vue'
 import OurTeam from './pages/talant/Our_Team.vue'
 import PartOfNashville from './pages/talant/Part-of-Nashville.vue'
+import NewYork from './pages/talant/New-York.vue'
 
 // Приложение для our-team
 const ourTeamApp = createApp({})
@@ -23,6 +24,11 @@ ourTeamApp.mount('#vue-team')
 const partOfNashvilleApp = createApp({})
 partOfNashvilleApp.component('part-of-nashville', PartOfNashville)
 partOfNashvilleApp.mount('#vue-team2')
+
+// Приложение для new-york
+const NewYorkApp = createApp({})
+NewYorkApp.component('new-york', NewYork)  //
+NewYorkApp.mount('#vue-team3')
 
 
 AOS.init({
