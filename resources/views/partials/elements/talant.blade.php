@@ -334,62 +334,8 @@
             Nashville
         </h2>
     </div>
-    <div class="w-full max-w-[1000px] mx-auto grid grid-cols-2 space-y-8">
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Andrew Nacario
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Matt Ricatto
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Tom Hagan
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Lillian Giunta
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Ruben Noriega
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Sydney Chance
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Adriel Reyes
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Nolan Fontana
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Chris Amezquita
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Ethan Roth
-        </p>
-        <p data-aos="zoom-in" class="font-bold text-gray-700 hover:text-white text-4xl text-center hover:bg-red-700
-            pr-16"
-        >
-            Tyler Hadzinsky
-        </p>
+    <div id="vue-team2">
+        <part-of-nashville></part-of-nashville>
     </div>
     <div class="w-full max-w-[1280px] mx-auto mt-20" data-aos="fade-up">
         <h2 class="text-left font-bold text-gray-700 text-4xl mb-10">

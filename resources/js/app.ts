@@ -12,10 +12,17 @@ import 'aos/dist/aos.css';
 
 import { createApp } from 'vue'
 import OurTeam from './pages/talant/Our_Team.vue'
+import PartOfNashville from './pages/talant/Part-of-Nashville.vue'
 
-const app = createApp({})
-app.component('our-team', OurTeam)
-app.mount('#vue-team')
+// Приложение для our-team
+const ourTeamApp = createApp({})
+ourTeamApp.component('our-team', OurTeam)
+ourTeamApp.mount('#vue-team')
+
+// Приложение для part-of-nashville
+const partOfNashvilleApp = createApp({})
+partOfNashvilleApp.component('part-of-nashville', PartOfNashville)
+partOfNashvilleApp.mount('#vue-team2')
 
 
 AOS.init({
