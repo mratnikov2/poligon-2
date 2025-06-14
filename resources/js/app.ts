@@ -16,28 +16,19 @@ import PartOfNashville from './pages/talant/Part-of-Nashville.vue'
 import NewYork from './pages/talant/New-York.vue'
 import ThreeSixtyDegree from './pages/talant/ThreeSixtyDegree.vue'
 
-// Приложение для our-team
-const ourTeamApp = createApp({})
-ourTeamApp.component('our-team', OurTeam)
-ourTeamApp.mount('#vue-team')
 
-// Приложение для part-of-nashville
-const partOfNashvilleApp = createApp({})
-partOfNashvilleApp.component('part-of-nashville', PartOfNashville)
-partOfNashvilleApp.mount('#vue-team2')
+const apps = [
+    { id: '#vue-team', name: 'our-team', component: OurTeam },
+    { id: '#vue-team2', name: 'part-of-nashville', component: PartOfNashville },
+    { id: '#vue-team3', name: 'new-york', component: NewYork },
+    { id: '#vue-team4', name: 'three-sixty-degree', component: ThreeSixtyDegree },
+]
 
-// Приложение для new-york
-const NewYorkApp = createApp({})
-NewYorkApp.component('new-york', NewYork)  //
-NewYorkApp.mount('#vue-team3')
-
-// Приложение для 360degree
-
-const degreeApp = createApp({})
-degreeApp.component('three-sixty-degree', ThreeSixtyDegree)
-degreeApp.mount('#vue-team4')
-
-
+apps.forEach(({ id, name, component }) => {
+    const app = createApp({})
+    app.component(name, component)
+    app.mount(id)
+})
 
 AOS.init({
     duration: 1000,
