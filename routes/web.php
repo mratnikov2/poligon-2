@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/talant', function () {
     return view('partials.elements.talant');
 })->name('talant');
+
+Route::get('/brands', function () {
+    return view('partials.elements.brands');
+})->name('brands');

@@ -277,7 +277,6 @@
         <div id="vue-team4">
             <three-sixty-degree></three-sixty-degree>
         </div>
-
     </div>
 </div>
 <div class="w-full max-w-[2560px] bg-white">

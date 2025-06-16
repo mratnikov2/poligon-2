@@ -12,7 +12,7 @@
             <a href="{{ route('talant') }}">For Talent</a>
         </li>
         <li class="w-40 text-left text-[#D8BFD8] font-bold hover:text-[#E6E6FA] text-[50px] text-nowrap">
-            For Brands
+            <a href="{{ route('brands') }}">For Brands</a>
         </li>
         <li class="w-40 text-left text-[#D8BFD8] font-bold hover:text-[#E6E6FA] text-[50px] text-nowrap">
             For Enterprise

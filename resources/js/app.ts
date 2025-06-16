@@ -15,13 +15,17 @@ import OurTeam from './pages/talant/Our_Team.vue'
 import PartOfNashville from './pages/talant/Part-of-Nashville.vue'
 import NewYork from './pages/talant/New-York.vue'
 import ThreeSixtyDegree from './pages/talant/ThreeSixtyDegree.vue'
+import WhatWeDo from '@/pages/brands/WhatWeDo.vue';
 
 
 const apps = [
+    // Part of talant
     { id: '#vue-team', name: 'our-team', component: OurTeam },
     { id: '#vue-team2', name: 'part-of-nashville', component: PartOfNashville },
     { id: '#vue-team3', name: 'new-york', component: NewYork },
     { id: '#vue-team4', name: 'three-sixty-degree', component: ThreeSixtyDegree },
+    // Part for brands
+    { id: '#brand1', name: 'WhatWeDo', component: WhatWeDo },
 ]
 
 apps.forEach(({ id, name, component }) => {
