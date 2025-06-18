@@ -18,6 +18,8 @@ Route::get('/', function () {
         return view('welcome');
 });
 
+//Основные
+
 Route::get('/talant', function () {
     return view('partials.elements.talant');
 })->name('talant');
@@ -29,3 +31,13 @@ Route::get('/brands', function () {
 Route::get('/enterprise', function () {
     return view('partials.elements.enterprise');
 })->name('enterprise');
+
+//Второсепенные
+
+Route::get('/about', function () {
+    return view('partials.elements.about');
+})->name('about');
+
+
+
+

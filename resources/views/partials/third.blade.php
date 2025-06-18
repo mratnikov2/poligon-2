@@ -20,7 +20,7 @@
     </ul>
     <ul class="flex flex-col items-center justify-center space-y-2 pr-[40%] mt-[10%]">
         <li class="w-40 text-left text-[#D8BFD8] font-bold hover:text-[#E6E6FA] text-lg">
-            About
+            <a href="{{ route('about') }}">About</a>
         </li>
         <li class="w-40 text-left text-[#D8BFD8] font-bold hover:text-[#E6E6FA] text-lg">
             Careers
