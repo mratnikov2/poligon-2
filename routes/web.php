@@ -25,3 +25,7 @@ Route::get('/talant', function () {
 Route::get('/brands', function () {
     return view('partials.elements.brands');
 })->name('brands');
+
+Route::get('/enterprise', function () {
+    return view('partials.elements.enterprise');
+})->name('enterprise');

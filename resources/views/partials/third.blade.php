@@ -15,7 +15,7 @@
             <a href="{{ route('brands') }}">For Brands</a>
         </li>
         <li class="w-40 text-left text-[#D8BFD8] font-bold hover:text-[#E6E6FA] text-[50px] text-nowrap">
-            For Enterprise
+            <a href="{{ route('enterprise') }}">For Enterprise</a>
         </li>
     </ul>
     <ul class="flex flex-col items-center justify-center space-y-2 pr-[40%] mt-[10%]">
