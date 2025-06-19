@@ -23,7 +23,7 @@
             <a href="{{ route('about') }}">About</a>
         </li>
         <li class="w-40 text-left text-[#D8BFD8] font-bold hover:text-[#E6E6FA] text-lg">
-            Careers
+            <a href="{{ route('careers') }}">Careers</a>
         </li>
         <li class="w-40 text-left text-[#D8BFD8] font-bold hover:text-[#E6E6FA] text-lg">
             Contact

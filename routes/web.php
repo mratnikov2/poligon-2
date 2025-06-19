@@ -38,6 +38,11 @@ Route::get('/about', function () {
     return view('partials.elements.about');
 })->name('about');
 
+Route::get('/careers', function () {
+    return view('partials.elements.careers');
+})->name('careers');
+
+
 
 
 
