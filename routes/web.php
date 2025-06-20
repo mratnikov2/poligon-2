@@ -42,6 +42,9 @@ Route::get('/careers', function () {
     return view('partials.elements.careers');
 })->name('careers');
 
+Route::get('/contact', function () {
+    return view('partials.elements.contact');
+})->name('contact');
 
 
 

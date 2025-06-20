@@ -16,6 +16,7 @@ import PartOfNashville from './pages/talant/Part-of-Nashville.vue'
 import NewYork from './pages/talant/New-York.vue'
 import ThreeSixtyDegree from './pages/talant/ThreeSixtyDegree.vue'
 import WhatWeDo from '@/pages/brands/WhatWeDo.vue';
+import Contact from './pages/contact/contact.vue';
 
 
 const apps = [
@@ -26,6 +27,8 @@ const apps = [
     { id: '#vue-team4', name: 'three-sixty-degree', component: ThreeSixtyDegree },
     // Part for brands
     { id: '#brand1', name: 'WhatWeDo', component: WhatWeDo },
+    // Part for contact
+    { id: '#contact-1', name: 'contact1', component: Contact }
 ]
 
 apps.forEach(({ id, name, component }) => {
