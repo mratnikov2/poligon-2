@@ -7,6 +7,10 @@
 </head>
 <body>
 
+<div id="burger-menu-app">
+    <burger-menu></burger-menu>
+</div>
+
 <div class="w-full max-w-[2560px] h-screen bg-red-700 flex flex-col justify-center items-center">
     <div class="text-[40px] text-white text-nowrap">
         Venue Development & Strategic Advisory
@@ -81,6 +85,8 @@
         </div>
     </div>
 </div>
+
+@include('partials.footer')
 
 </body>
 </html>

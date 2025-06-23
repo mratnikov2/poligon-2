@@ -7,12 +7,16 @@
 </head>
 <body>
 
+<div id="burger-menu-app">
+    <burger-menu></burger-menu>
+</div>
+
 <div class="w-full max-w-[2560px] h-screen bg-red-700 flex flex-row justify-center items-center">
     <div class="text-[40px] text-white text-nowrap uppercase">
         Creative Artists Agency
     </div>
 </div>
-<div class="mt-20 w-full max-w-[2560px] bg-white h-[1000px]">
+<div class="mt-20 w-full max-w-[2560px] bg-white h-[1200px] mb-10">
     <div class="w-full max-w-[1280px] mx-auto border-b border-b-black" data-aos="zoom-in">
         <h1 class="text-3xl text-left">
             About CAA
@@ -76,6 +80,8 @@
         </div>
     </div>
 </div>
+
+@include('partials.footer')
 
 </body>
 </html>

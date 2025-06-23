@@ -7,6 +7,10 @@
 </head>
 <body>
 
+<div id="burger-menu-app">
+    <burger-menu></burger-menu>
+</div>
+
 <div class="w-full max-w-[2560px] h-screen bg-blue-400 flex flex-row justify-center items-center">
     <div class="text-[170px] text-white font-bold">
         Brand <br> Consulting
@@ -127,6 +131,8 @@
         </div>
     </form>
 </div>
+
+@include('partials.footer')
 
 </body>
 </html>

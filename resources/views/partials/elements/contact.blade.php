@@ -7,14 +7,20 @@
 </head>
 <body>
 
+<div id="burger-menu-app">
+    <burger-menu></burger-menu>
+</div>
+
 <div class="w-full max-w-[2560px] h-screen bg-red-700 flex flex-row justify-center items-center">
     <div class="text-[40px] text-white text-nowrap uppercase">
         Contact
     </div>
 </div>
-<div id="contact-1">
+<div class="h-[3000px]" id="contact-1">
     <contact1></contact1>
 </div>
+
+@include('partials.footer')
 
 </body>
 </html>

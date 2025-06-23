@@ -17,6 +17,7 @@ import NewYork from './pages/talant/New-York.vue'
 import ThreeSixtyDegree from './pages/talant/ThreeSixtyDegree.vue'
 import WhatWeDo from '@/pages/brands/WhatWeDo.vue';
 import Contact from './pages/contact/contact.vue';
+import BurgerMenu from './components/BurgerMenu.vue'
 
 
 const apps = [
@@ -28,14 +29,23 @@ const apps = [
     // Part for brands
     { id: '#brand1', name: 'WhatWeDo', component: WhatWeDo },
     // Part for contact
-    { id: '#contact-1', name: 'contact1', component: Contact }
+    { id: '#contact-1', name: 'contact1', component: Contact },
+    // Part for hedear
+    { id: '#burger-menu-app', name: 'burger-menu', component: BurgerMenu }
 ]
 
 apps.forEach(({ id, name, component }) => {
-    const app = createApp({})
-    app.component(name, component)
-    app.mount(id)
+    const el = document.querySelector(id)
+    if (el) {
+        const app = createApp({})
+        app.component(name, component)
+        app.mount(el)
+    } else {
+        console.warn(`Vue mount skipped: ${id} not found in DOM.`)
+    }
 })
+
+
 
 AOS.init({
     duration: 1000,

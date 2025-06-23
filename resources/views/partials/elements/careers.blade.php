@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
-@vite(['resources/css/app.css', 'resources/js/app.ts'])
 <head>
     <meta charset="UTF-8" />
     <title>Careers</title>
+
+    @vite(['resources/css/app.css', 'resources/js/app.ts'])
 </head>
 <body>
+
+<div id="burger-menu-app">
+    <burger-menu></burger-menu>
+</div>
 
 <div class="w-full max-w-[2560px] h-screen bg-red-700 flex flex-row justify-center items-center">
     <div class="text-[40px] text-white text-nowrap uppercase">
@@ -153,7 +158,7 @@
         </div>
     </div>
 </div>
-<div class="w-full max-w-[2560px] h-[600px] bg-white flex flex-col justify-center items-center mt-16">
+<div class="w-full max-w-[2560px] h-[900px] bg-white flex flex-col justify-center items-center mt-16">
     <div class="w-full max-w-[1280px] mx-auto border-b border-b-black" data-aos="zoom-in">
         <h1 class="text-3xl text-left text-black">
             Our Culture & Diversity
@@ -193,6 +198,8 @@
         </div>
     </div>
 </div>
+
+@include('partials.footer')
 
 </body>
 </html>
